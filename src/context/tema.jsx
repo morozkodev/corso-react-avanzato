@@ -1,13 +1,13 @@
 import React from 'react';
 
 export const themes = {
-	light: {
-		foreground: '#00ee00',
-		background: '#eeeeee'
-	},
 	dark: {
-		foreground: '#00EE00',
-		background: '#000000'		
+		foreground: '#00ee00',
+		background: '#000000',
+	},
+	light: {
+		foreground: '#000080',
+		background: '#eeee00'		
 	}
 }
 
