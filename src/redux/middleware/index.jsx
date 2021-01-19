@@ -1,4 +1,5 @@
 import { ADD_ARTICLE } from '../constants/action-types';
+
 const forbiddenWords = ['parola1', 'parola2'];
 
 export function forbiddenWordsMiddleware({ dispatch }) {

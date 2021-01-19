@@ -2,6 +2,7 @@
 import React from 'react';
 import Form from './redux/components/Form';
 import List from './redux/components/List';
+import Posts from './redux/components/Posts';
 
 class App extends React.Component {
     render () {
@@ -11,6 +12,8 @@ class App extends React.Component {
                 <Form />
                 <hr />
                 <List />
+				<hr/>
+				<Posts />
             </div>
         )
     }
