@@ -11,7 +11,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<h1>Pagina iniziale</h1>
+				<h1>App React Reduct</h1>
 			</div>
 		);
 	}
