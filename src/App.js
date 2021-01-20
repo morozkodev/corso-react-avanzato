@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 
+import Main from './children/Main';
+import Header from './children/Header';
+
 class App extends React.Component {
 	
 	constructor(props) {
@@ -11,7 +14,15 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<h1>Pagina iniziale</h1>
+				<h1>React Children</h1>
+				<div>
+					<Header>
+						<h1>Questo è lo Header</h1>
+					</Header>
+				</div>
+				<div>
+					<Main title="Titolo pagina" text="Testo pagina"/>
+				</div>
 			</div>
 		);
 	}
