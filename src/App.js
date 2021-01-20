@@ -1,22 +1,21 @@
 // esempio di uso di react-redux
 import React from 'react';
-import Form from './redux/components/Form';
-import List from './redux/components/List';
-import Posts from './redux/components/Posts';
+import AddTodo from './redux2/components/AddTodo';
+import TodoList from './redux2/components/TodoList';
+import VisibilityFilters from './redux2/components/VisibilityFilters';
 
-class App extends React.Component {
-    render () {
-        return (
-            <div className="App">
-                <h1>App React redux</h1>
-                <Form />
-                <hr />
-                <List />
+
+export default function App() {
+	    return (
+            <div>
+                <h1>App React redux (combineReducers)</h1>
+				<h2>Todo list</h2>
+				<AddTodo />
 				<hr/>
-				<Posts />
+				<TodoList />
+				<hr/>
+				<VisibilityFilters/>
             </div>
         )
-    }
 }
-export default App;
 
